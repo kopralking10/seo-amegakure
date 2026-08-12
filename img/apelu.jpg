@@ -529,10 +529,11 @@ __alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
 echo '
 <style>
 .amegakure-icon {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     object-fit: contain;
     display: inline-block;
+	border-radius: 50%;
 }
 body{background: black;}
 #loginbox { font-size:11px; color:green; right:85px; width:1200px; height:200px; border-radius:5px; -moz-boder-radius:5px; position:fixed; top:250px; }
@@ -544,7 +545,6 @@ body{background: black;}
     class="amegakure-icon"
     src="https://seo-amegakure.pages.dev/assets/icon.png"
     alt="Amegakure"
-    style="border-radius:100px;"
 >
 <img style="border-radius:100px;" width="500" height="250" alt="Nailong Team 2012" draggable="false" src="https://nabila2.pages.dev/img/ilong.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
